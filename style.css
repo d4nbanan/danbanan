@@ -1,38 +1,19 @@
-html,
 body {
-	padding: 0;
-	margin: 0;
-}
-.main {
 	margin: 0;
 	padding: 0;
-	width:100%
-	height: 100%;
+	display: flex-column;
+	justify-content: center;
+	background: #777777;
 }
-.top_row,
-.middle_row {
-	display: flex;
-	width: 100%;
-	margin: 0;
+.tests {
+	background: #fff;
 }
-#top {
-	overflow: hidden;
+.answer {
+	background-color: #85C1E9;
 }
-#left_img {
-	overflow: hidden;
+.question {
+	background-color: #FF8F8F;
 }
-.left {
-	overflow: hidden;
-	min-width: 166px;
-	max-height: 70vh;
-}
-.all {
-	overflow: auto;
-	max-height: 70vh;
-}
-#foot_img {
-
-}
-.footer_row {
-	overflow: auto;
+h3 {
+	background: #87FF6A;
 }
